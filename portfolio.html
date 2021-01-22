@@ -11,95 +11,119 @@
 </head>
 <body>
    <header class="header">
-          
-            <nav class="navigation">
-                <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
-                 <ul class="navigation-list">
-                    <li class="navigation-list-item"><a class="navigation-list-link" href="./index.html">Студия</a></li>
-                     <li class="navigation-list-item"><a class="navigation-list-link current" href="./portfolio.html">Портфолио</a></li>
-                    <li class="navigation-list-item"><a class="navigation-list-link" href="#">Контакты</a></li>
-                 </ul>   
-            </nav> 
-        <ul class="contact-list">
-            <li class="contact-list-item"><a class="contact-header-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contact-list-item"><a class="contact-header-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>    
-    
+        <div class="header-container">
+                <nav class="navigation">
+                    <!-- <div class="logo-container"> -->
+                    <a class="logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a> 
+                   <!-- </div> -->
+                    <ul class="navigation-list list">
+                      <li class="navigation-list-item"><a class="navigation-list-link link" href="./index.html">Студия</a></li>
+                       <li class="navigation-list-item"><a class="navigation-list-link link current" href="#">Портфолио</a></li>
+                      <li class="navigation-list-item"><a class="navigation-list-link link" href="#">Контакты</a></li>
+                  </ul>   
+                  <ul class="contact-list list">
+                        <li class="contact-list-item"><a class="contact-header-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                         <li class="contact-list-item"><a class="contact-header-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                  </ul>    
+                </nav> 
+        </div>
     </header>
     <main>
     <!--секция с контентом -->
       <section>
           <h2 class="visually-hidden">Портфолио</h2>
         <!--список с навигацией по портфолио-->
-        <ul>
-            <li><button class="portfolio-button" type="button">Все</button></li>
-            <li><button class="portfolio-button" type="button">Веб-сайты</button></li>
-            <li><button class="portfolio-button" type="button">Приложения</button></li>
-            <li><button class="portfolio-button" type="button">Дизайн</button></li>
-            <li><button class="portfolio-button" type="button">Маркетинг</button></li>
+        <div class="portfolio-menu container">
+        <ul class="menu list">
+            <li class="portfolio-menu-item"><button class="portfolio-button" type="button">Все</button></li>
+            <li class="portfolio-menu-item"><button class="portfolio-button" type="button">Веб-сайты</button></li>
+            <li class="portfolio-menu-item"><button class="portfolio-button" type="button">Приложения</button></li>
+            <li class="portfolio-menu-item"><button class="portfolio-button" type="button">Дизайн</button></li>
+            <li class="portfolio-menu-item"><button class="portfolio-button" type="button">Маркетинг</button></li>
          </ul> 
+         </div>
         <!--спсиок с ячейками портфолио-->
-        <ul class="portfolio-list">
+        <div class="container paddingbotom">
+        <ul class="portfolio-list list">
             <li class="portfolio-list-item">
                 <img class="portfolio-img" src="./images/tehno.jpg" alt="Веб-сайт на ноутбуке">
+                <div class="portfolio-card">
                 <h3 class="portfolio-headline">Технокряк</h3>
                 <p class="portfolio-paragraph">Веб-сайт</p>
+                </div>
             </li>
             <li class="portfolio-list-item">
                 <img class="portfolio-img" src="./images/basketball.jpg" alt="Дизайн баскетбольно постера">
+                <div class="portfolio-card">
                 <h3 class="portfolio-headline">Постер New Orlean vs Golden Star</h3>
                 <p class="portfolio-paragraph">Дизайн</p>
+                </div>
             </li>
             <li class="portfolio-list-item">
                 <img class="portfolio-img" src="./images/cafe-logo.jpg" alt="Лого ресторана">
+                 <div class="portfolio-card">
                 <h3 class="portfolio-headline">Ресторан Seafood</h3>
                 <p class="portfolio-paragraph">Приложение</p>
+                </div>
             </li>
             <li class="portfolio-list-item">
                 <img class="portfolio-img" src="./images/headphones.jpg" alt="Наушники">
+                 <div class="portfolio-card">
                 <h3 class="portfolio-headline">Проект Prime</h3>
                 <p class="portfolio-paragraph">Маркетинг</p>
+                </div>
             </li>
             <li class="portfolio-list-item">
                 <img class="portfolio-img" src="./images/boxes.jpg" alt="Картонные коробки">
+                 <div class="portfolio-card">
                 <h3 class="portfolio-headline">Проект Boxes</h3>
                 <p class="portfolio-paragraph">Приложение</p>
+                </div>
             </li>
             <li class="portfolio-list-item">
                 <img class="portfolio-img" src="./images/mac.jpg" alt="iMac с открытым приложением">
+                 <div class="portfolio-card">
                 <h3 class="portfolio-headline">Inspiration has no Borders</h3>
                 <p class="portfolio-paragraph">Веб-сайт</p>
+                </div>
             </li>
             <li class="portfolio-list-item">
                 <img class="portfolio-img" src="./images/book.jpg" alt="Открытая книга">
+                 <div class="portfolio-card">
                 <h3 class="portfolio-headline">Издание Limited Edition</h3>
                 <p class="portfolio-paragraph">Дизайн</p>
+                </div>
             </li>
             <li class="portfolio-list-item">
                 <img class="portfolio-img" src="./images/tag.jpg" alt="Этикетка с логотипом">
+                 <div class="portfolio-card">
                 <h3 class="portfolio-headline">Проект LAB</h3>
                 <p class="portfolio-paragraph">Маркетинг</p>
+                </div>
             </li>
             <li class="portfolio-list-item">
                 <img class="portfolio-img" src="./images/laptop.jpg" alt="Веб-сайт на ноутбуке">
+                 <div class="portfolio-card">
                 <h3 class="portfolio-headline">Growing Business</h3>
                 <p class="portfolio-paragraph">Приложение</p>
+                </div>
             </li>
         </ul>
-
+        </div>
       </section>
         
     </main>
     <!--футер-->
  <footer class="footer">
-     <a class="logo-studio-footer" href="./index.html"><span class="logo-web">Web</span>Studio</a> 
-    <address class="adress">
-        <ul class="adress-list">
-            <li class="adress-list-item"><p class="footer-p">г. Киев, пр-т Леси Украинки, 26</p></li>
-            <li class="adress-list-item"><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="adress-list-item"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </address>
+        <div class="footer-div">
+          <a class="logo-studio-footer link" href="./index.html"><span class="logo-web">Web</span>Studio</a> 
+          <address class="adress">
+               <ul class="adress-list list">
+                     <li class="adress-list-item"><p class="footer-p">г. Киев, пр-т Леси Украинки, 26</p></li>
+                       <li class="adress-list-item"><a class="footer-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                       <li class="adress-list-item"><a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+              </ul>
+         </address>
     </footer>
 </body>
 </html>
