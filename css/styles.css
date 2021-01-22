@@ -117,8 +117,8 @@ border-bottom: 1px solid var(--border-color);
 .navigation-list-link {
     
     display: block;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -127,17 +127,18 @@ border-bottom: 1px solid var(--border-color);
     color: var(--subtitle-font-color); 
 }
 .navigation-list-link:hover,
-.navigation-list-link:focus {
-    color: var(--accent-color);
-}
-/* выделенные элементы */
+.navigation-list-link:focus,
+.contact-header-link:hover,
+.contact-header-link:focus,
 .current {
     color: var(--accent-color);
 }
+/* выделенные элементы */
+
 .contact-header-link {
     display: block;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.333;
@@ -145,10 +146,7 @@ border-bottom: 1px solid var(--border-color);
     color: var(--font-color);
     font-style: normal;
 }
-.contact-header-link:hover,
-.contact-header-link:focus {
-    color: var(--accent-color);
-}
+
 
 /* Hero */
 
@@ -164,20 +162,19 @@ border-bottom: 1px solid var(--border-color);
 }
 .hero{
     background-color: var(--hero-bg-color);
-    height: 600px;
+    /* height: 600px; */
 }
 .hero .container {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    padding-top: 200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
-.hero-headline {
-    /* margin-top: 200px; */
+.hero-button {
+    margin-top: 30px;
+    padding-bottom: 200px;
+}
 
+.hero-headline {
+    padding-top: 200px;
+   
     font-style: normal;
     font-size: 44px;
     line-height: 1.363;
@@ -197,7 +194,9 @@ border-bottom: 1px solid var(--border-color);
     line-height: 1.875;
     font-style: normal;
     cursor: pointer;
-    margin: 30px auto;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+   
     
     
 /* identica
@@ -221,13 +220,7 @@ l to box height, or 187% */
     background-color: var(--modal-button-hover);
 }
 
-.advantages .container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    
-}
+
 .advantages-list {
     display: flex;
     padding-top: 99px;
@@ -269,13 +262,7 @@ color: var(--font-color);
     color: var(--subtitle-font-color);
     margin-bottom: 50px;
 }
-.what-we-do .container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    padding-bottom: 94px;
-}
+
 .what-we-do-list {
     display: flex;
     margin: -15px;
@@ -288,6 +275,7 @@ margin: 15px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    /* padding-bottom: 0; */
     
 }
 .paddingbotom {
@@ -313,8 +301,11 @@ margin: 15px;
 }
 .team-card {
     
-    padding-top: 30px;
+    /* padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 32px; */
+    padding: 30px 32px 30px 30px;
 
 }
 .our-team-name {
@@ -345,16 +336,17 @@ margin: 15px;
     background-color: var(--hero-bg-color);
 }
 .footer-div {
-   padding-top: 60px;
-   padding-bottom: 60px;
+   
+   
    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    
+    padding-top: 60px;
 }
 
 .logo-studio-footer {
+    
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -362,10 +354,10 @@ margin: 15px;
     /* identical to box height */
     letter-spacing: 0.03em;
     color: var(--bg-color);
-    font-family: Raleway;
+    font-family: Raleway;   
 }
 .footer-p {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
@@ -384,19 +376,22 @@ margin: 15px;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
 }
+.adress {
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
 .adress-list-item:not(:last-child){
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 
 /* portfolio */
-.portfolio-menu {
-    padding-top: 94px;
-    padding-bottom: 50px;
-}
+
 .menu {
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 94px;
     
 }
 .portfolio-menu-item:not(:last-child){
