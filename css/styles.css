@@ -237,7 +237,7 @@ l to box height, or 187% */
     width: 271px;
 }
 .advantages-list-item:not(:last-child){
-    padding-right: 30px;
+    margin-right: 30px;
 }
 .advantages-headline {
 font-style: normal;
