@@ -162,9 +162,6 @@ border-bottom: 1px solid var(--border-color);
 }
 .hero{
     background-color: var(--hero-bg-color);
-    /* height: 600px; */
-}
-.hero .container {
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -230,7 +227,8 @@ l to box height, or 187% */
 }
 
 .advantages {
-padding-top: 99px;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .advantages-list {
     display: flex;
@@ -261,6 +259,9 @@ line-height: 1.714;
 letter-spacing: 0.03em;
 color: var(--font-color);
 }
+.what-we-do {
+    padding-bottom: 94px;
+}
 .what-we-do-headline,
 .our-team-headline {
     font-style: normal;
@@ -281,12 +282,13 @@ color: var(--font-color);
 margin: 15px;
 }
 
-.paddingbotom {
+/* .paddingbotom {
      padding-bottom: 94px;
-}
+} */
 .our-team-section {
     background-color: var(--block-bg);
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .our-team-list {
     display: flex;
@@ -300,6 +302,7 @@ margin: 15px;
     margin: 15px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: #fff;
     
 }
 .team-card {
@@ -391,14 +394,15 @@ margin: 15px;
 
 
 /* portfolio */
-
+.portfolio {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
 .menu {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
-    padding-top: 94px;
-    
-}
+    margin-bottom: 50px;
+    }
 .portfolio-menu-item:not(:last-child){
     padding-right: 8px;
 }
